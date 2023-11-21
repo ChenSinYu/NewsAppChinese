@@ -5,7 +5,8 @@
              Title="NewsListPage">
     <CollectionView  x:Name="CvNews"
                      Margin="5"
-                     SelectionMode="Single">
+                     SelectionMode="Single"
+                     SelectionChanged="CvNews_SelectionChaanged">
         <CollectionView.ItemsLayout>
             <LinearItemsLayout Orientation="Vertical"
                                ItemSpacing="15" />
